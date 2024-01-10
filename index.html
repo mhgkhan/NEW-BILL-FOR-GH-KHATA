@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO insert row in table </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+
+    <h1 align="center"> GH-STORE OFFLINE BILL </h1>
+
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>S#</th>
+                <th>Item name</th>
+                <th>Qty</th>
+                <th>Rate</th>
+                <th>Amount </th>
+                <td colspan="2"><button>Actions</button></td>
+            </tr>
+        </thead>
+
+
+        <tbody id="tableBody">
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>T Items</td>
+                <td colspan="2" id="titems">total items</td>
+                <td>Total Money</td>
+                <td colspan="2" id="tamounts">total amount </td>
+                <td id="tamounts" onclick="finalBill()">Finalaize</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

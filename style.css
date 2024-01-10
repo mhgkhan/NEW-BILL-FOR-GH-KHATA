@@ -1,0 +1,74 @@
+*,
+::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+body {
+    background: linear-gradient(to bottom, #0a5172e1, #763c8fde);
+}
+
+h1{
+    color: white;
+}
+
+
+table {
+    width: 80%;
+    margin: 1rem auto;
+    border: 5px dotted white;
+    border-radius: 10px;
+}
+
+table tr td {
+    text-align: left !important;
+}
+
+table tr td,
+table tr th {
+    padding: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+table thead tr th,
+table tfoot tr td {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
+
+table tr td input,
+table tr td button {
+    width: 100%;
+    font-size: 1rem;
+    height: auto;
+    padding: 15px;
+    border-radius: 200px;
+    border: 1px dotted white;
+    color: white;
+    background: none;
+    outline: none;
+
+}
+
+table tr td input:focus {
+    box-shadow: 0px 0px 10px white;
+}
+
+table tr td input::placeholder {
+    color: darkblue;
+}
+
+table tr td button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+table tr td button:active {
+    transform: scale(1.03);
+}
